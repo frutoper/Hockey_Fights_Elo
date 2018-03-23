@@ -26,7 +26,7 @@ eloold <- read.csv("Hockey/Hockey_Fights/data/elo_2014-15.csv")
 
 colnames(eloold)
 colnames(elo)
-identical(elo[1:2,2],eloold[1:2,2])
+identical(elo[1:100,270],eloold[1:100,270])
 
 
 identical(colnames(elo),colnames(eloold))
